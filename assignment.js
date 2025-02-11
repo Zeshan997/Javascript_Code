@@ -10,7 +10,7 @@ function displayLinkedInProfiledata() {
         github_profile: "https://github.com/stackmasteraliza",
         followers: 3288,
         connection: 500,
-        about: "I’ m a Full Stack Developer passionate about building user-centric websites and hybrid apps. My expertise spans Flutter, React Native, Laravel, and React.js, enabling me to craft sleek, responsive, and efficient web and mobile solutions. Whether it’s a MERN stack application or a Laravel-powered web project, I ensure that every creation blends functionality with a great user experience",
+        about: "I m a Full Stack Developer passionate about building user-centric websites and hybrid apps. My expertise spans Flutter, React Native, Laravel, and React.js, enabling me to craft sleek, responsive, and efficient web and mobile solutions. Whether it’s a MERN stack application or a Laravel-powered web project, I ensure that every creation blends functionality with a great user experience",
         skills: ["Mobile App Development", "Web Development", "Frontend and Backend Development", "CCross-Platform Development", "Responsive Web Design"],
         experience: {
             current_company: "Mercury Sols",
@@ -37,10 +37,10 @@ function displayLinkedInProfiledata() {
     };
 
 
-
+  
     // Printing profile information
     console.log("LinkedIn Profile Date:");
-    console.log("Name: ", linkedInProfile.name, "\n", "Age:", linkedInProfile.age, "\n", "location:", linkedInProfile.location, "\n", "About:", linkedInProfile.about, "\n", "Skills:", linkedInProfile.skills.join(", "), "\n", "Company:", linkedInProfile.experience.company, "\n", "Role:", linkedInProfile.experience.role, "\n", "Year:", linkedInProfile.experience.years, "\n", "Education:", linkedInProfile.education, "\n", "Contact:", linkedInProfile.contact.email, "\n", "phone:", linkedInProfile.contact.phone);
+    console.log("Name: ", linkedInProfile.name, "\n", "Age:", linkedInProfile.age, "\n", "location:", linkedInProfile.location, "\n", "About:", linkedInProfile.about, "\n", "Skills:", linkedInProfile.skills.join(", "), "\n", "Company:", linkedInProfile.experience.company, "\n", "Role:", linkedInProfile.experience.role, "\n", "Year:", linkedInProfile.experience.years, "\n", "Education:", linkedInProfile.education, "\n", "Contact:");
 
 }
 
