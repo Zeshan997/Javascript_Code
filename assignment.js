@@ -44,5 +44,5 @@ function displayLinkedInProfiledata() {
 
 }
 
-// Call the function to display the profile
+// Call the function to display the profile Dara
 displayLinkedInProfiledata();
