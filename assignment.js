@@ -127,5 +127,28 @@ function displayLinkedInProfiledata() {
   );
 }
 
+
+
+
+
+
+
+// console.log(
+//   `Name: ${linkedInProfile.name}\n` +
+//   `Age: ${linkedInProfile.age}\n` +
+//   `Location: ${linkedInProfile.location}\n` +
+//   `About: ${linkedInProfile.about}\n` +
+//   `Skills: ${linkedInProfile.skills.join(", ")}\n` +
+//   `Experience:\n` +
+//   linkedInProfile.experience.map((job, index) => 
+//       `${index + 1}. Company: ${job.company}\n   Role: ${job.role}\n   Years: ${job.years}`
+//   ).join("\n") + `\n` +
+//   `Education: ${linkedInProfile.education}\n` +
+//   `Contact:\n   Email: ${linkedInProfile.contact.email}\n   Phone: ${linkedInProfile.contact.phone}`
+// );
+
+
+
+
 // Call the function to display the profile Dara
 displayLinkedInProfiledata();
