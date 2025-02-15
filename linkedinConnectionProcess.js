@@ -35,7 +35,7 @@ function acceptRequest(receiverId, senderId) {
     }
 
     receiver.requests = receiver.requests.filter(id => id !== senderId);
-    receiver.connections++;
+    receiver.connections++; 
     sender.connections++;
     receiver.followers++;
     sender.followers++;
